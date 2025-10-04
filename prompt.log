@@ -1,3 +1,4 @@
+
 Q: 產生一個main.py用500筆資料來做Linear regression，並產生一張圖表
 
 A:
@@ -52,3 +53,10 @@ A:
 1.  **問題分析:** 判斷錯誤原因是 Streamlit Cloud 環境缺少必要的 Python 套件。
 2.  **解決方案:** 說明需要建立 `requirements.txt` 檔案來告知 Streamlit Cloud 需要安裝哪些依賴。
 3.  **產生檔案:** 建立 `requirements.txt` 並寫入 `numpy`, `scikit-learn`, `matplotlib`, `streamlit` 等套件及其版本。
+
+---
+
+Q: 在README.md前面加入這段Demosite：https://app-linear-regression-v2-asiv4zjvi39tta3jqnrd8j.streamlit.app/
+
+A:
+1.  **更新檔案:** 讀取 `README.md` 並將使用者提供的 Demo 網站連結加到檔案最前面。
