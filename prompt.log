@@ -1,0 +1,34 @@
+Q: 產生一個main.py用500筆資料來做Linear regression，並產生一張圖表
+
+A:
+1.  **安裝依賴套件:** 執行 `pip install numpy scikit-learn matplotlib`。
+2.  **產生腳本:** 建立 `main.py`，內容包含使用 numpy 產生 500 筆隨機資料，使用 scikit-learn 建立與訓練線性迴歸模型，最後使用 matplotlib 繪製資料點與迴歸線。
+3.  **執行腳本:** 執行 `python main.py`。
+4.  **產出:** 成功在主控台印出訊息，並儲存名為 `linear_regression_plot.png` 的圖表。
+
+---
+
+Q: 將程式轉換為使用streamlit開啟，並在畫面左側新增三個控制項，allow user to modify a in ax+b, noise, number of points
+
+A:
+1.  **安裝依賴套件:** 執行 `pip install streamlit`。
+2.  **修改腳本:** 將 `main.py` 改寫為 Streamlit 應用程式。在側邊欄新增滑桿(slider)來控制斜率(a)、雜訊(noise)和資料點數量。
+3.  **更新功能:** 程式現在會根據使用者的輸入動態更新圖表。
+4.  **啟動方式:** 告知使用者使用 `streamlit run main.py` 來啟動應用程式，並處理首次執行的互動提示。
+
+---
+
+Q: 幫我用markdonw語法產生一個Readme檔案，方便待會要git到github上，使用CRISP-DM的架構來記錄此次專案的整個過程
+
+A:
+1.  **產生檔案:** 建立 `README.md`。
+2.  **撰寫內容:** 根據 CRISP-DM 框架 (業務理解、資料理解、資料準備、模型建立、評估、部署) 撰寫專案說明。
+3.  **加入說明:** 在檔案中包含了如何安裝依賴和執行 Streamlit 應用程式的指南。
+
+---
+
+Q: 有出現這個錯誤，這是什麼錯誤 `[API Error: Model stream ended with an invalid chunk or missing finish reason.]`
+
+A:
+1.  **問題釐清:** 解釋該錯誤是 Gemini API/CLI 本身的通訊問題，而非專案程式碼的錯誤。
+2.  **說明:** 告知使用者這通常是暫時性問題，可以繼續進行操作。
