@@ -32,3 +32,23 @@ Q: 有出現這個錯誤，這是什麼錯誤 `[API Error: Model stream ended wi
 A:
 1.  **問題釐清:** 解釋該錯誤是 Gemini API/CLI 本身的通訊問題，而非專案程式碼的錯誤。
 2.  **說明:** 告知使用者這通常是暫時性問題，可以繼續進行操作。
+
+---
+
+Q: 請幫我將專案git push到https://github.com/skyypp2020/streamlit-linear-regression-v2.git
+
+A:
+1.  **初始化儲存庫:** 執行 `git init`。
+2.  **建立 .gitignore:** 為了避免將虛擬環境(`venv`)等不需要的檔案上傳，建立 `.gitignore` 檔案。
+3.  **加入與提交檔案:** 執行 `git add .` 和 `git commit -m "Initial commit"` 來提交所有專案檔案。
+4.  **設定遠端儲存庫:** 執行 `git remote add origin <URL>`。
+5.  **推送至 GitHub:** 執行 `git push -u origin main`，成功將專案上傳至指定的 GitHub 儲存庫。
+
+---
+
+Q: 佈署到streamlit cloud時，出現ModuleNotFoundError...，該如何處理?
+
+A:
+1.  **問題分析:** 判斷錯誤原因是 Streamlit Cloud 環境缺少必要的 Python 套件。
+2.  **解決方案:** 說明需要建立 `requirements.txt` 檔案來告知 Streamlit Cloud 需要安裝哪些依賴。
+3.  **產生檔案:** 建立 `requirements.txt` 並寫入 `numpy`, `scikit-learn`, `matplotlib`, `streamlit` 等套件及其版本。
